@@ -83,3 +83,9 @@ path{
         padding-left: 20px;
     }
 }
+
+@media (max-width: 1440px){
+    #svgPath{
+        margin-top: 0;
+    }
+}

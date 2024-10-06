@@ -149,3 +149,23 @@ a{
         height: 16px;
     }
 }
+
+@media (max-width: 1440px) {
+    main{
+        margin-top: 70px;
+    }
+
+    #widget{
+        max-height: 500px;
+        padding: 15px;
+        top: 10px;
+    }
+
+    #widget > img{
+        max-height: 400px;
+    }
+
+    #textDiv{
+        max-height: 400px;
+    }
+}
