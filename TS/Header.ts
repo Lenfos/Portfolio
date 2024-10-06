@@ -31,7 +31,7 @@ class Header{
         let img = document.createElement("img");
         img.id = "logo"
         img.alt = "Pierre Vanhove's Logo"
-        img.src = "../assets/logo.svg"
+        img.src = "../assets/Logo.svg"
         this.header.appendChild(img);
         this.header.appendChild(div);
 
