@@ -107,3 +107,45 @@ a{
     border-radius: 16px;
     cursor: pointer;
 }
+
+@media (max-width: 480px) {
+    #grid{
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+
+    main{
+        margin: 100px 20px 0 20px;
+    }
+
+    .projectsDiv > p{
+        font-size: 20px;
+    }
+
+    #widget{
+        flex-direction: column;
+        z-index: 10;
+        width: 90%;
+        padding: 30px 10px;
+        align-content: center;
+    }
+
+    #widget > img{
+        max-height: 200px;
+    }
+
+    #textDiv{
+        display: flex;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+
+    .key, .value{
+        font-size: 16px;
+        margin: 3px 0;
+    }
+
+    .key{
+        height: 16px;
+    }
+}

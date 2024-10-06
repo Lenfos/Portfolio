@@ -68,3 +68,17 @@ path{
         fill: var(--textColor);
     }
 }
+
+
+@media (max-width: 480px){
+    body{
+        height: 100%;
+        overflow-y: scroll;
+        background-size: cover;
+    }
+
+    #svgPath{
+        margin-top: 50px;
+        padding-left: 20px;
+    }
+}

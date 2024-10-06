@@ -54,6 +54,9 @@ class Header{
         let div = document.createElement("div");
         div.id = "globalDivMenu"
 
+        let menuBg = document.createElement("div");
+        menuBg.id = "menu-bg";
+
         let menuBurger = document.createElement("div");
         menuBurger.id = "menu-burger";
         menuBurger.innerText = "☰";
@@ -72,6 +75,7 @@ class Header{
             menuItems.append(tempDiv);
         })
 
+        div.appendChild(menuBg);
         div.appendChild(menuBurger);
         div.appendChild(menuItems);
 
@@ -85,6 +89,7 @@ class Header{
         let menuBurger = document.getElementById("menu-burger") as HTMLDivElement;
 
         menuBurger.classList.toggle("fs");
+        document.getElementById("menu-bg").classList.toggle("fs");
         document.getElementById("menu-item").classList.toggle("fs");
 
         menuBurger.innerText = menuBurger.innerText == "☰" ? "✕" : "☰";

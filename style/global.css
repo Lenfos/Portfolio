@@ -91,6 +91,9 @@ ul{
     margin-left: 20px;
 }
 
+#globalDivMenu{
+    z-index: 10;
+}
 
 #globalDivMenu, #menu-bg, #menu-burger {
     position: fixed;
@@ -99,8 +102,8 @@ ul{
     font-size: 30px;
     text-align:center;
     border-radius: 20px;
-    right:25px;
-    top: 50px;
+    right:50px;
+    top: 70px;
 }
 
 #menu-bg, #menu-burger {
@@ -116,6 +119,7 @@ ul{
     transform:translate3d(50%,-50%,0);
     transform-origin: center center;
     &.fs{
+        background: rgba(255, 255, 255, 0.5);
         top: 0;
         right: 0;
         left: -20px;
@@ -124,6 +128,7 @@ ul{
     }
 }
 #menu-burger {
+    background: none;
     color: var(--textColor);
     padding-top: 5px;
 
@@ -169,5 +174,10 @@ ul{
         display: flex;
         justify-content: space-between;
         align-items: center;
+        z-index: 10;
+    }
+
+    #logo{
+        height: 80px;
     }
 }

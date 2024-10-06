@@ -73,7 +73,7 @@ class Project {
         titleKeyP.classList.add("key");
         titleKeyP.innerText = "Title: ";
         let titleValueP = document.createElement("p");
-        titleKeyP.classList.add("value");
+        titleValueP.classList.add("value");
         titleValueP.innerText = data.title;
         titleDiv.append(titleKeyP);
         titleDiv.append(titleValueP);
