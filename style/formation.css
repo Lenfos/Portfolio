@@ -1,0 +1,70 @@
+
+
+#svgPath{
+    margin-top: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+svg{
+    width: 85%;
+}
+
+path{
+    fill: transparent;
+    stroke : #2D2525;
+    stroke-dasharray: 170;
+    stroke-dashoffset: 170;
+    animation: pathAnim 2s ease-in-out forwards;
+}
+
+
+#mainPath{
+    stroke-width: 8;
+    stroke-dasharray: 2600;
+    stroke-dashoffset: 2600;
+    animation: mainPathAnim 2s ease-in-out forwards;
+}
+
+@keyframes pathAnim{
+    0%{
+        stroke-dashoffset: 170;
+    }
+    100%{
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes mainPathAnim{
+    0%{
+        stroke-dashoffset: 2600;
+    }
+    80%{
+        fill: transparent;
+    }
+    100%{
+        stroke-dashoffset: 0;
+        fill: var(--textColor);
+    }
+}
+
+
+.text{
+    font-weight: bold;
+    animation: textAnim 2s ease-in-out forwards;
+}
+
+.text{
+    fill: transparent;
+}
+
+@keyframes textAnim{
+    from{
+        fill: transparent;
+    }
+    to{
+        fill: var(--textColor);
+    }
+}

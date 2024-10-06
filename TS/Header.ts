@@ -4,10 +4,9 @@ class Header{
     private header : HTMLDivElement;
 
     constructor(){
-        this.link = ["index", "skills", "projects", "contact"];
+        this.link = ["index", "formation", "projects", "contact"];
         this.header = document.getElementsByTagName("header")[0] as HTMLDivElement;
         this.initialize();
-        this.defineCurrent();
     }
 
     private initialize(){
@@ -36,11 +35,5 @@ class Header{
         this.header.appendChild(img);
         this.header.appendChild(div);
 
-    }
-
-    private defineCurrent(){
-
-        let body = document.getElementsByTagName("body")[0];
-        document.getElementById(body.id + "Link").classList.add("active");
     }
 }

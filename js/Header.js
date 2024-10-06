@@ -1,9 +1,8 @@
 class Header {
     constructor() {
-        this.link = ["index", "skills", "projects", "contact"];
+        this.link = ["index", "formation", "projects", "contact"];
         this.header = document.getElementsByTagName("header")[0];
         this.initialize();
-        this.defineCurrent();
     }
     initialize() {
         let div = document.createElement("div");
@@ -28,10 +27,6 @@ class Header {
         img.src = "../assets/logo.svg";
         this.header.appendChild(img);
         this.header.appendChild(div);
-    }
-    defineCurrent() {
-        let body = document.getElementsByTagName("body")[0];
-        document.getElementById(body.id + "Link").classList.add("active");
     }
 }
 //# sourceMappingURL=Header.js.map
