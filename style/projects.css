@@ -138,6 +138,8 @@ a{
 
     #widget > img{
         max-height: 200px;
+        aspect-ratio: 1 / 1;
+        max-width: 200px;
     }
 
     #textDiv{

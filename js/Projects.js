@@ -105,6 +105,9 @@ class Project {
         let descValueP = document.createElement("p");
         descValueP.classList.add("value");
         descValueP.innerText = data.description;
+        descValueP.style.overflowX = "hidden";
+        descValueP.style.overflowY = "scroll";
+        descValueP.style.maxHeight = "120px";
         descDiv.append(descKeyP);
         descDiv.append(descValueP);
         div.appendChild(descDiv);
