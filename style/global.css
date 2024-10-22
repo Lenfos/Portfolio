@@ -8,7 +8,8 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     color: var(--textColor);
     font-family: var(--gabarito), sans-serif;
     height: 100vh;
@@ -183,7 +184,6 @@ ul{
 
 @media(max-width: 1440px) {
     body{
-        overflow-y: scroll;
         background-size: revert;
     }
 }

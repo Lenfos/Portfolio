@@ -1,4 +1,8 @@
 
+body{
+    overflow: hidden;
+}
+
 #nameDiv{
     display: flex;
     flex-direction: column;
