@@ -63,4 +63,7 @@ a{
     main{
         margin-top: 50px;
     }
+    body{
+        overflow-y: hidden;
+    }
 }

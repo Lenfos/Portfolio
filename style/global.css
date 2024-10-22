@@ -13,7 +13,6 @@ body {
     font-family: var(--gabarito), sans-serif;
     height: 100vh;
     background-image: url('../assets/background.jpg');
-    background-size: cover;
     background-repeat: no-repeat;
 }
 
@@ -179,5 +178,12 @@ ul{
 
     #logo{
         height: 80px;
+    }
+}
+
+@media(max-width: 1440px) {
+    body{
+        overflow-y: scroll;
+        background-size: revert;
     }
 }
