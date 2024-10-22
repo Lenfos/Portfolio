@@ -66,9 +66,9 @@ a{
 @media (max-width: 1440px) {
     main{
         margin-top: 50px;
-        margin-bottom: 150px;
     }
     body{
         overflow-y: scroll;
+        padding-bottom: 100px;
     }
 }
