@@ -60,3 +60,7 @@ body {
   position: fixed;
 
 }
+
+.custom-radius{
+  border-radius: 20% 40% 20% 40%;
+}
