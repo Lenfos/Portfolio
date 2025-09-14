@@ -12,6 +12,7 @@ export default {
             fontFamily: {
                 gila: ['Gila', 'sans-serif'],
                 gilaBold: ['GilaBold', 'sans-serif'],
+                raleway: ['Raleway', 'sans-serif'],
             },
         },
     },

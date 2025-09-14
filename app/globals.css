@@ -10,14 +10,19 @@
   src: url("/font/GilaBold.woff2") format('woff2');
 }
 
+@font-face {
+  font-family: 'Raleway';
+  src: url("/font/Raleway.woff2") format('woff2');
+}
+
 :root {
   --background: #5F0130;
-  --foreground: #fff;
+  --foreground: #FDFCFA;
 
   --name-foreground: #4B4646;
   --name-shadows: 3px 4px 9.8px rgba(0, 0, 0, 0.25);
 
-  --nav-foreground: #433D3E;
+  --nav-foreground: #1E1F1C;
 }
 
 @theme inline {
@@ -26,8 +31,14 @@
   --color-name-foreground: var(--name-foreground);
   --color-nav-foreground: var(--nav-foreground);
   --name-shadows: var(--name-shadows);
+  --projects-shadow: var(--projects-shadow);
   --font-gila: "Gila", sans-serif;
   --font-gilaBold: "GilaBold", sans-serif;
+  --font-raleway: "Raleway", sans-serif;
+}
+
+html::-webkit-scrollbar {
+  display: none;
 }
 
 body {
@@ -44,6 +55,28 @@ body {
   display: block;
   position: relative;
   z-index: 10;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(0,0,0,0.3) transparent;
+
+}
+
+.animation::-webkit-scrollbar {
+  position: absolute;
+  z-index: 50;
+  width: 8px;
+}
+
+.animation::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.animation::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+
+.animation::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.6);
 }
 
 .animation_layer {
@@ -63,4 +96,18 @@ body {
 
 .custom-radius{
   border-radius: 20% 40% 20% 40%;
+}
+
+.caveParallaxBackground{
+  filter: contrast(100%) brightness(100%);
+  background: radial-gradient(rgba(48, 76, 119, 1) 22%, rgba(89, 80, 60, 1) 100%), url("image/Cave/NoiseBG.svg");
+}
+
+.nav{
+  background: linear-gradient(30deg, rgba(255, 255, 255, 50%) 0%, rgba(255, 255, 255, 30%) 100%);
+  border-radius: 100px;
+  border-image-source: linear-gradient(30deg, rgba(255, 255, 255, 0.32) 0%, rgba(255, 255, 255, 0.14) 100%);
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,8%);
 }

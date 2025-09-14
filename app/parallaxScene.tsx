@@ -2,23 +2,23 @@
 
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import AboutMe from "@/app/aboutMe";
+import Formations from "@/app/formations";
+import SkillTree from "@/app/skilltree";
 
 export default function ParallaxScene() {
+
     return(
-        <Parallax pages={2} style={{top:'0', left: '0'}} className="animation">
+        <Parallax pages={3} style={{top:'0', left: '0'}} className="animation">
             <ParallaxLayer offset={0} speed={0.1}>
                 <div id="background" className="animation_layer parallax bg-[url('./image/Background.svg')]" style={{backgroundSize:'cover'}}></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.15}>
-                <div id="stars" className="animation_layer parallax bg-[url('./image/Stars.svg')]"></div>
-            </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.16}>
+            <ParallaxLayer offset={0} speed={-0.6}>
                 <div id="sun" className="animation_layer parallax bg-[url('./image/Sun.svg')] right-1/4 top-1/3" style={{backgroundRepeat: 'no-repeat', height:'300px'}}></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.2}>
                 <div id="clouds" className="animation_layer parallax bg-[url('./image/clouds.svg')] bottom-0"></div>
             </ParallaxLayer>
-            <ParallaxLayer offset={0} speed={0.2}>
+            <ParallaxLayer offset={0} speed={0.1}>
                 <div id="mountainBack" className="animation_layer parallax bg-[url('./image/MoutainBack.svg')] bottom-0"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={-0.4}>
@@ -33,8 +33,12 @@ export default function ParallaxScene() {
                 <div id="moutainFront" className="animation_layer parallax bg-[url('./image/MountainFront.svg')] bottom-0"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={.99} speed={0.5}>
-                <div className="w-full h-200 bg-[#5D002E] bottom-0 flex justify-center items-center" style={{top:'0'}}>
-                    <AboutMe/>
+                <div className="w-full h-auto bg-[#5D002E] bottom-0 flex justify-center items-center z-20" style={{top:'0'}}>
+                    <div className={"w-auto h-full flex-col justify-between items-center mt-50"}>
+                        <AboutMe/>
+                        <Formations/>
+                        <SkillTree/>
+                    </div>
                 </div>
             </ParallaxLayer>
         </Parallax>
