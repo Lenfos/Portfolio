@@ -1,6 +1,7 @@
 "use client"
 
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
+import ProjectsList from "@/app/projects/projectsList";
 
 export default function ProjectsParallax(){
     return (
@@ -28,15 +29,13 @@ export default function ProjectsParallax(){
             <ParallaxLayer offset={0} speed={0.5}>
                 <div id={"MountainFrontBot"} className={"animation_layer parallax bg-[url('./image/Cave/MountainFrontBot.svg')] bottom-0"}/>
             </ParallaxLayer>
-            <ParallaxLayer offset={.99} speed={0.5}>
+            <ParallaxLayer offset={.99} speed={0.5} className={"z-40"}>
                 <div className="w-full h-auto bg-[#5D002E] bottom-0 flex justify-center items-center z-20" style={{top:'0'}}>
-                    <div className={"w-auto h-full flex-col justify-between items-center mt-50"}>
-
+                    <div className={"h-[100vh] w-10/12 flex-col justify-between items-center mt-50"}>
+                        <ProjectsList/>
                     </div>
                 </div>
             </ParallaxLayer>
-
-
         </Parallax>
 
     )
