@@ -5,24 +5,37 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Merge branch 'main' into dev&#10;&#10;# Conflicts:&#10;#&#9;TS/Header.ts&#10;#&#9;TS/Projects.ts&#10;#&#9;contact.html&#10;#&#9;formation.html&#10;#&#9;index.html&#10;#&#9;js/Header.js&#10;#&#9;js/Header.js.map&#10;#&#9;js/Projects.js&#10;#&#9;js/Projects.js.map&#10;#&#9;projects.html&#10;#&#9;public/MobilePath.html&#10;#&#9;public/Path.html&#10;#&#9;public/itchIcon.svg&#10;#&#9;public/json/mad-space.json&#10;#&#9;public/json/ziggy.json&#10;#&#9;public/mad-space.jpg&#10;#&#9;public/mad-spaceClear.jpg&#10;#&#9;public/ziggy.jpg&#10;#&#9;public/ziggyClear.jpg&#10;#&#9;public/ziggy_video.mp4&#10;#&#9;style/contact.css&#10;#&#9;style/formation.css&#10;#&#9;style/global.css&#10;#&#9;style/index.css&#10;#&#9;style/projects.css">
-      <change beforePath="$PROJECT_DIR$/app/special/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/special/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/[id]/page.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "git-widget-placeholder": "Merging dev",
+    "git-widget-placeholder": "dev",
     "node.js.selected.package.tslint": "(autodetect)",
     "ts.external.directory.path": "C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib"
   }
 }]]></component>
   <component name="TaskManager">
+    <task id="LOCAL-00001" summary="Merge branch 'main' into dev&#10;&#10;# Conflicts:&#10;#&#9;TS/Header.ts&#10;#&#9;TS/Projects.ts&#10;#&#9;contact.html&#10;#&#9;formation.html&#10;#&#9;index.html&#10;#&#9;js/Header.js&#10;#&#9;js/Header.js.map&#10;#&#9;js/Projects.js&#10;#&#9;js/Projects.js.map&#10;#&#9;projects.html&#10;#&#9;public/MobilePath.html&#10;#&#9;public/Path.html&#10;#&#9;public/itchIcon.svg&#10;#&#9;public/json/mad-space.json&#10;#&#9;public/json/ziggy.json&#10;#&#9;public/mad-space.jpg&#10;#&#9;public/mad-spaceClear.jpg&#10;#&#9;public/ziggy.jpg&#10;#&#9;public/ziggyClear.jpg&#10;#&#9;public/ziggy_video.mp4&#10;#&#9;style/contact.css&#10;#&#9;style/formation.css&#10;#&#9;style/global.css&#10;#&#9;style/index.css&#10;#&#9;style/projects.css">
+      <option name="closed" value="true" />
+      <created>1758547201915</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758547201915</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
 </project>
