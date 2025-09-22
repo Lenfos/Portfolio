@@ -34,7 +34,7 @@ export default function ParallaxScene() {
             </ParallaxLayer>
             <ParallaxLayer offset={.99} speed={0.5}>
                 <div className="w-full h-auto bg-[#5D002E] bottom-0 flex justify-center items-center z-20" style={{top:'0'}}>
-                    <div className={"w-auto h-full flex-col justify-between items-center mt-50"}>
+                    <div className={"w-auto h-full flex-col justify-between items-center mt-50 mb-20"}>
                         <AboutMe/>
                         <Formations/>
                         <SkillTree/>

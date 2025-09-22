@@ -83,8 +83,8 @@ const Masonry: React.FC<MasonryProps> = ({
   colorShiftOnHover = false
 }) => {
   const columns = useMedia(
-    ['(min-width:1500px)', '(min-width:1000px)', '(min-width:600px)', '(min-width:400px)'],
-    [5, 4, 3, 2],
+    ['(min-width:1000px)', '(min-width:600px)', '(min-width:400px)'],
+    [4, 3, 2],
     1
   );
 
@@ -221,7 +221,7 @@ const Masonry: React.FC<MasonryProps> = ({
           data-key={item.id}
           className="absolute box-content"
           style={{ willChange: 'transform, width, height, opacity' }}
-          onClick={() => window.open(item.url, '_blank', 'noopener')}
+          onClick={() => window.open(`/projects/${item.id}`, '_blank', 'noopener')}
           onMouseEnter={e => handleMouseEnter(item.id, e.currentTarget)}
           onMouseLeave={e => handleMouseLeave(item.id, e.currentTarget)}
         >

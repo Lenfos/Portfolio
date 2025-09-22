@@ -11,58 +11,47 @@ export default function ProjectsList() {
     const list = [
         {
             id: "1",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
+            img: "/mad-space.jpg",
             url: "https://example.com/one",
-            height: 400,
+            height: 500,
         },
         {
             id: "2",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
+            img: "/learn2switchClear.jpg",
             url: "https://example.com/one",
-            height: 250,
+            height: 380,
         },
         {
             id: "3",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
+            img: "/sidera.jpg",
             url: "https://example.com/one",
-            height: 600,
+            height: 700,
         },
         {
             id: "4",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
+            img: "/ziggyClear.jpg",
             url: "https://example.com/one",
-            height: 150,
-        },
-        {
-            id: "5",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
-            url: "https://example.com/one",
-            height: 350,
+            height: 600,
         },
         {
             id: "6",
             img: "/fleshHunt.jpeg",
             url: "https://example.com/one",
-            height: 700,
+            height: 900,
         },
         {
             id: "7",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
+            img: "/eclipse-arena.jpg",
             url: "https://example.com/one",
-            height: 500,
+            height: 900,
         },
         {
-            id: "8",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
-            url: "https://example.com/one",
+            id: "0",
+            img: "/moreToCome.jpg",
+            url: "/projects",
             height: 400,
         },
-        {
-            id: "9",
-            img: "https://picsum.photos/id/1015/600/900?grayscale",
-            url: "https://example.com/one",
-            height: 200,
-        }
+
 
     ]
 
