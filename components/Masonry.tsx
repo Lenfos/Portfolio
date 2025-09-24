@@ -219,7 +219,7 @@ const Masonry: React.FC<MasonryProps> = ({
         <div
           key={item.id}
           data-key={item.id}
-          className="absolute box-content"
+          className={`absolute box-content ${"Masonry_" + item.id}`}
           style={{ willChange: 'transform, width, height, opacity' }}
           onClick={() => window.open(`/projects/${item.id}`, '_blank', 'noopener')}
           onMouseEnter={e => handleMouseEnter(item.id, e.currentTarget)}

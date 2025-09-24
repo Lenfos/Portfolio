@@ -298,3 +298,10 @@ body{
   color: var(--text-foreground);
 }
 
+.Masonry_7 > div{
+  @apply bg-top;
+}
+
+.Masonry_6 > div{
+  @apply bg-top;
+}

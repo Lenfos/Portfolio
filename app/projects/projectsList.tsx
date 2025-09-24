@@ -1,6 +1,7 @@
 "use client"
 
 import dynamic from "next/dynamic";
+import {isMobile} from "@/lib/utils";
 
 const Masonry = dynamic(() => import("@/components/Masonry"), {
     ssr: false,
@@ -13,19 +14,19 @@ export default function ProjectsList() {
             id: "1",
             img: "/mad-space.jpg",
             url: "https://example.com/one",
-            height: 500,
+            height: isMobile() ? 200 : 500,
         },
         {
             id: "2",
             img: "/learn2switchClear.jpg",
             url: "https://example.com/one",
-            height: 400,
+            height: isMobile() ? 320 : 400,
         },
         {
             id: "3",
             img: "/sidera.jpg",
             url: "https://example.com/one",
-            height: 700,
+            height: isMobile() ? 400 :700,
         },
         {
             id: "4",
@@ -37,13 +38,13 @@ export default function ProjectsList() {
             id: "6",
             img: "/fleshHunt.jpeg",
             url: "https://example.com/one",
-            height: 900,
+            height: isMobile() ? 300 : 900,
         },
         {
             id: "7",
             img: "/eclipse-arena.jpg",
             url: "https://example.com/one",
-            height: 900,
+            height: isMobile() ? 300 : 900,
         },
         {
             id: "0",
