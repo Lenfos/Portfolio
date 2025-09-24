@@ -278,7 +278,7 @@ body{
 }
 
 .about-container {
-  @apply lg:mt-20 md:p-10 px-3 py-10 m-auto
+  @apply lg:mt-20 md:p-10 px-3 py-20 m-auto
   xl:w-[1400px] min-h-[600px] h-screen md:h-full
   md:grid-cols-10 grid-rows-2 grid-cols-5
   md:bg-size-[90%] bg-contain
