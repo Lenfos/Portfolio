@@ -1,9 +1,9 @@
 'use client'
 
 import {Parallax, ParallaxLayer} from "@react-spring/parallax";
-import AboutMe from "@/app/aboutMe";
-import Formations from "@/app/formations";
-import SkillTree from "@/app/skilltree";
+import AboutMe from "@/app/about/aboutMe";
+import Formations from "@/app/about/formations";
+import SkillTree from "@/app/about/skilltree";
 
 export default function ParallaxScene() {
 
@@ -16,7 +16,7 @@ export default function ParallaxScene() {
                 <div id="sun" className="animation_layer parallax bg-[url('./image/Sun.svg')] right-1/4 top-1/3" style={{backgroundRepeat: 'no-repeat', height:'300px'}}></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.2}>
-                <div id="clouds" className="animation_layer parallax bg-[url('./image/clouds.svg')] bottom-0"></div>
+                <div id="clouds" className="animation_layer parallax bg-[url('./image/clouds.svg')] bottom-0" style={{backgroundRepeat: "no-repeat", backgroundSize:"cover"}}></div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.1}>
                 <div id="mountainBack" className="animation_layer parallax bg-[url('./image/MoutainBack.svg')] bottom-0"></div>

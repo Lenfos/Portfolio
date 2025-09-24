@@ -5,28 +5,113 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Correct deployment error for vercel">
+      <change afterPath="$PROJECT_DIR$/app/about/MobilePage.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Mobile/AboutBg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Mobile/MobileFormations.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Mobile/MobileSkilltree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/Mobile/ProjectsBG.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/parallaxScene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/parallaxScene.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/aboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/aboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/formations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/formations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/special/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/[id]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/projectsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/projectsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/skills/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/skills/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/skilltree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/skilltree.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/NavComponents.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/NavComponents.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/utils.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript JSX File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Lenfos&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Lenfos/Portfolio.git&quot;,
+    &quot;accountId&quot;: &quot;2a79e597-8d19-41e7-88bb-fee112cb4a80&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="334XDVJGdtHY6kuBGzxQB4GpT03" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "git-widget-placeholder": "dev",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib"
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pierr\WebstormProjects\Portfolio\app\about" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-WS-251.26927.40" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Merge branch 'main' into dev&#10;&#10;# Conflicts:&#10;#&#9;TS/Header.ts&#10;#&#9;TS/Projects.ts&#10;#&#9;contact.html&#10;#&#9;formation.html&#10;#&#9;index.html&#10;#&#9;js/Header.js&#10;#&#9;js/Header.js.map&#10;#&#9;js/Projects.js&#10;#&#9;js/Projects.js.map&#10;#&#9;projects.html&#10;#&#9;public/MobilePath.html&#10;#&#9;public/Path.html&#10;#&#9;public/itchIcon.svg&#10;#&#9;public/json/mad-space.json&#10;#&#9;public/json/ziggy.json&#10;#&#9;public/mad-space.jpg&#10;#&#9;public/mad-spaceClear.jpg&#10;#&#9;public/ziggy.jpg&#10;#&#9;public/ziggyClear.jpg&#10;#&#9;public/ziggy_video.mp4&#10;#&#9;style/contact.css&#10;#&#9;style/formation.css&#10;#&#9;style/global.css&#10;#&#9;style/index.css&#10;#&#9;style/projects.css">
       <option name="closed" value="true" />
@@ -44,8 +129,21 @@
       <option name="project" value="LOCAL" />
       <updated>1758547864121</updated>
     </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Correct deployment error for vercel" />
+      <created>1758577201956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1758577201956</updated>
+      <workItem from="1758577205319" duration="2345000" />
+      <workItem from="1758612447137" duration="22629000" />
+      <workItem from="1758698335566" duration="6560000" />
+    </task>
     <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correct deployment error for vercel" />

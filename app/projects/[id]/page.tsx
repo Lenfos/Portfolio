@@ -14,6 +14,7 @@ export default async function ProjectPage({ params }: Props) {
 
     const markdown = await fs.promises.readFile(filePath, "utf-8");
 
+
     return (
         <div className="max-w-4xl mx-auto p-6 mt-10 ">
             <div className="mx-auto p-6 flex justify-center">

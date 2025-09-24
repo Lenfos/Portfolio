@@ -5,6 +5,8 @@ import SkillsParallax from "@/app/skills/skillsParallax";
 export default function Skills() {
 
     return (
-        SkillsParallax()
+        <div className={"parallaxWrapper"}>
+            <SkillsParallax/>
+        </div>
     );
 }

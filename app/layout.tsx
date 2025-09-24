@@ -18,7 +18,9 @@ export default function RootLayout({
       <body
         className={`antialiased bg-[#5D002E]`}
       >
-      <NavBar/>
+      <div className="w-screen fixed z-100 flex justify-center items-center">
+          <NavBar/>
+      </div>
       <main>{children}</main>
       </body>
     </html>

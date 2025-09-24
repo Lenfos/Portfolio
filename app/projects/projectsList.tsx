@@ -19,7 +19,7 @@ export default function ProjectsList() {
             id: "2",
             img: "/learn2switchClear.jpg",
             url: "https://example.com/one",
-            height: 380,
+            height: 400,
         },
         {
             id: "3",
