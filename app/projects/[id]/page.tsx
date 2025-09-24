@@ -16,8 +16,8 @@ export default async function ProjectPage({ params }: Props) {
 
 
     return (
-        <div className="max-w-4xl mx-auto p-6 mt-10 ">
-            <div className="mx-auto p-6 flex justify-center">
+        <div className="max-w-4xl mx-auto p-6  ">
+            <div className="mx-auto p-6 flex justify-center my-30">
                 <article className="prose prose-invert text-lg">
                     <ReactMarkdown remarkPlugins={[remarkGfm]}>
                         {markdown}
