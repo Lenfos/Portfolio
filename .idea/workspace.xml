@@ -4,14 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Add Projects page And nav menu">
-      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/2.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/3.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/GDDLearn2Switch.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/SIDERA.jpg" afterDir="false" />
+    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Add more Projects">
+      <change afterPath="$PROJECT_DIR$/app/about/Socials.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/about/profileCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/icons/mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/photo.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/projects/[id]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/[id]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/ProjectsFiles/1.md" beforeDir="false" afterPath="$PROJECT_DIR$/public/ProjectsFiles/1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/MobilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/MobilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/parallaxScene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/parallaxScene.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,25 +60,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/pierr/WebstormProjects/Portfolio/app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/Users/pierr/WebstormProjects/Portfolio/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pierr\WebstormProjects\Portfolio\public" />
       <recent name="C:\Users\pierr\WebstormProjects\Portfolio\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -130,7 +135,9 @@
       <workItem from="1758612447137" duration="22629000" />
       <workItem from="1758698335566" duration="8796000" />
       <workItem from="1758714963645" duration="8699000" />
-      <workItem from="1758730544038" duration="3155000" />
+      <workItem from="1758730544038" duration="3383000" />
+      <workItem from="1758789702924" duration="1192000" />
+      <workItem from="1758805432644" duration="6989000" />
     </task>
     <task id="LOCAL-00003" summary="Add Mobile Adaptation">
       <option name="closed" value="true" />
@@ -156,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758722612974</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add more Projects">
+      <option name="closed" value="true" />
+      <created>1758735944292</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1758735944292</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +182,7 @@
     <MESSAGE value="Add Mobile Adaptation" />
     <MESSAGE value="Correct Mobile Adaptation" />
     <MESSAGE value="Add Projects page And nav menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Projects page And nav menu" />
+    <MESSAGE value="Add more Projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add more Projects" />
   </component>
 </project>

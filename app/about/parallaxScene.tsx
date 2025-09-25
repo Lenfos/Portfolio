@@ -4,11 +4,12 @@ import {Parallax, ParallaxLayer} from "@react-spring/parallax";
 import AboutMe from "@/app/about/aboutMe";
 import Formations from "@/app/about/formations";
 import SkillTree from "@/app/about/skilltree";
+import ProfileCard from "@/app/about/profileCard";
 
 export default function ParallaxScene() {
 
     return(
-        <Parallax pages={3} style={{top:'0', left: '0'}} className="animation">
+        <Parallax pages={3.5} style={{top:'0', left: '0'}} className="animation">
             <ParallaxLayer offset={0} speed={0.1}>
                 <div id="background" className="animation_layer parallax bg-[url('./image/Background.svg')]" style={{backgroundSize:'cover'}}></div>
             </ParallaxLayer>
@@ -33,11 +34,12 @@ export default function ParallaxScene() {
                 <div id="moutainFront" className="animation_layer parallax bg-[url('./image/MountainFront.svg')] bottom-0"></div>
             </ParallaxLayer>
             <ParallaxLayer offset={.99} speed={0.5}>
-                <div className="w-full h-auto bg-[#5D002E] bottom-0 flex justify-center items-center z-20" style={{top:'0'}}>
-                    <div className={"w-auto h-full flex-col justify-between items-center mt-50 mb-20"}>
+                <div className="w-full h-fit bg-[#5D002E] bottom-0 flex justify-center items-center z-20" style={{top:'0'}}>
+                    <div className={"w-auto h-full flex-col justify-between items-center mt-50 mb-20 2xl:space-y-50 xl:space-y-30 lg:space-y-10"}>
                         <AboutMe/>
                         <Formations/>
                         <SkillTree/>
+                        <ProfileCard/>
                     </div>
                 </div>
             </ParallaxLayer>

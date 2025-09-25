@@ -305,3 +305,23 @@ body{
 .Masonry_6 > div{
   @apply bg-top;
 }
+
+.profileCardDivInter{
+  @apply  w-full h-full
+  mx-auto px-3 py-2 md:px-10
+  flex flex-col md:flex-row justify-around items-center;
+  background: linear-gradient(-210deg, rgba(60, 17, 37, 1) 0%, rgba(73, 2, 37, 1) 100%);
+  border-radius: 50px;
+
+}
+
+.profileCardDivOuter{
+  @apply w-[280px] h-[360px] md:max-w-[860px] md:max-h-[430px] md:w-full md:h-full md:aspect-video
+  mx-auto p-1
+  flex justify-around items-center;
+  background: linear-gradient(-210deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.14) 100%);
+  border-radius: 54px;
+
+  backdrop-filter: blur(10px);
+  box-shadow: 0 20px 40px 0 rgba(0,0,0,10%);
+}
