@@ -5,11 +5,12 @@ import AboutMe from "@/app/about/aboutMe";
 import Formations from "@/app/about/formations";
 import SkillTree from "@/app/about/skilltree";
 import ProfileCard from "@/app/about/profileCard";
+import FadeIn from "@/components/FadeIn";
 
 export default function ParallaxScene() {
 
     return(
-        <Parallax pages={3.5} style={{top:'0', left: '0'}} className="animation">
+        <Parallax pages={3.8} style={{top:'0', left: '0'}} className="animation">
             <ParallaxLayer offset={0} speed={0.1}>
                 <div id="background" className="animation_layer parallax bg-[url('./image/Background.svg')]" style={{backgroundSize:'cover'}}></div>
             </ParallaxLayer>
@@ -24,7 +25,9 @@ export default function ParallaxScene() {
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={-0.4}>
                 <div id="Name" className="animation_layer parallax flex justify-center top-1/3" style={{}}>
-                    <h1 className={"font-gila text-6xl text-[color:var(--name-foreground)] "} style={{textShadow: 'var(--name-shadows)'}}>PIERRE VANHOVE</h1>
+                    <FadeIn delay={0.4}>
+                        <h1 className={"font-gila text-6xl text-[color:var(--name-foreground)] "} style={{textShadow: 'var(--name-shadows)'}}>PIERRE VANHOVE</h1>
+                    </FadeIn>
                 </div>
             </ParallaxLayer>
             <ParallaxLayer offset={0} speed={0.3}>

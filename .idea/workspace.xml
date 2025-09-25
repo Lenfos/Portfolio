@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Add more Projects">
-      <change afterPath="$PROJECT_DIR$/app/about/Socials.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/about/profileCard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/download.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/linkedin.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/icons/mail.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/photo.jpg" afterDir="false" />
+    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Add Profile Card">
+      <change afterPath="$PROJECT_DIR$/components/AnimatedLink.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/FadeIn.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/about/MobilePage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/MobilePage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/Socials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/Socials.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/aboutMe.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/aboutMe.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/formations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/formations.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/about/parallaxScene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/parallaxScene.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/profileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/profileCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/skilltree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/skilltree.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +135,7 @@
       <workItem from="1758714963645" duration="8699000" />
       <workItem from="1758730544038" duration="3383000" />
       <workItem from="1758789702924" duration="1192000" />
-      <workItem from="1758805432644" duration="6989000" />
+      <workItem from="1758805432644" duration="9421000" />
     </task>
     <task id="LOCAL-00003" summary="Add Mobile Adaptation">
       <option name="closed" value="true" />
@@ -171,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758735944292</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Add Profile Card">
+      <option name="closed" value="true" />
+      <created>1758812544250</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1758812544250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,6 +189,7 @@
     <MESSAGE value="Correct Mobile Adaptation" />
     <MESSAGE value="Add Projects page And nav menu" />
     <MESSAGE value="Add more Projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add more Projects" />
+    <MESSAGE value="Add Profile Card" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add Profile Card" />
   </component>
 </project>
