@@ -1,11 +1,9 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Link from "next/link";
 import { ReactNode } from "react";
 
 type AnimatedLinkProps = {
-    href: string;
     children: ReactNode;
     delay?: number;
 };
