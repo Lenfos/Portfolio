@@ -4,8 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Add Animation">
-      <change beforePath="$PROJECT_DIR$/components/AnimatedLink.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/AnimatedLink.tsx" afterDir="false" />
+    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Correct Vercel Deployment">
+      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/4.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/5.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/6.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/FleshHunt.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/PostMortemZiggy.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/projectsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/projectsList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Masonry.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/Masonry.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,23 +58,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "C:/Users/pierr/WebstormProjects/Portfolio/public",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "ts.external.directory.path": "C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pierr/WebstormProjects/Portfolio/public&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pierr\WebstormProjects\Portfolio\public" />
@@ -127,7 +135,9 @@
       <workItem from="1758714963645" duration="8699000" />
       <workItem from="1758730544038" duration="3383000" />
       <workItem from="1758789702924" duration="1192000" />
-      <workItem from="1758805432644" duration="9790000" />
+      <workItem from="1758805432644" duration="11112000" />
+      <workItem from="1758877385612" duration="3749000" />
+      <workItem from="1758894618227" duration="470000" />
     </task>
     <task id="LOCAL-00003" summary="Add Mobile Adaptation">
       <option name="closed" value="true" />
@@ -177,7 +187,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758815173588</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Correct Vercel Deployment">
+      <option name="closed" value="true" />
+      <created>1758815491961</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758815491961</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +209,7 @@
     <MESSAGE value="Add more Projects" />
     <MESSAGE value="Add Profile Card" />
     <MESSAGE value="Add Animation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add Animation" />
+    <MESSAGE value="Correct Vercel Deployment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correct Vercel Deployment" />
   </component>
 </project>

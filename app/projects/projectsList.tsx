@@ -35,13 +35,13 @@ export default function ProjectsList() {
             height: 600,
         },
         {
-            id: "6",
+            id: "5",
             img: "/fleshHunt.jpeg",
             url: "https://example.com/one",
             height: isMobile() ? 300 : 900,
         },
         {
-            id: "7",
+            id: "6",
             img: "/eclipse-arena.jpg",
             url: "https://example.com/one",
             height: isMobile() ? 300 : 900,

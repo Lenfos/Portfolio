@@ -1,5 +1,6 @@
 import React, { useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { gsap } from 'gsap';
+import {redirect} from "next/navigation";
 
 const useMedia = (queries: string[], values: number[], defaultValue: number): number => {
   const get = () => values[queries.findIndex(q => matchMedia(q).matches)] ?? defaultValue;
@@ -186,16 +187,18 @@ const Masonry: React.FC<MasonryProps> = ({
   }, [grid, imagesReady, stagger, animateFrom, blurToFocus, duration, ease]);
 
   const handleMouseEnter = (id: string, element: HTMLElement) => {
-    if (scaleOnHover) {
-      gsap.to(`[data-key="${id}"]`, {
-        scale: hoverScale,
-        duration: 0.3,
-        ease: 'power2.out'
-      });
-    }
-    if (colorShiftOnHover) {
-      const overlay = element.querySelector('.color-overlay') as HTMLElement;
-      if (overlay) gsap.to(overlay, { opacity: 0.3, duration: 0.3 });
+    if (id != "0"){
+      if (scaleOnHover) {
+        gsap.to(`[data-key="${id}"]`, {
+          scale: hoverScale,
+          duration: 0.3,
+          ease: 'power2.out'
+        });
+      }
+      if (colorShiftOnHover) {
+        const overlay = element.querySelector('.color-overlay') as HTMLElement;
+        if (overlay) gsap.to(overlay, { opacity: 0.3, duration: 0.3 });
+      }
     }
   };
 
@@ -219,9 +222,9 @@ const Masonry: React.FC<MasonryProps> = ({
         <div
           key={item.id}
           data-key={item.id}
-          className={`absolute box-content ${"Masonry_" + item.id}`}
+          className={`absolute box-content ${item.id == "0" ? "" : "hover:cursor-pointer"} ${"Masonry_" + item.id}`}
           style={{ willChange: 'transform, width, height, opacity' }}
-          onClick={() => window.open(`/projects/${item.id}`, '_blank', 'noopener')}
+          onClick={() => item.id == "0" ? null : window.open(`/projects/${item.id}`, '_blank', 'noopener')}
           onMouseEnter={e => handleMouseEnter(item.id, e.currentTarget)}
           onMouseLeave={e => handleMouseLeave(item.id, e.currentTarget)}
         >
