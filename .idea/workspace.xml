@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Last projects added and small changes on Masonry done for More To come" />
+    <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Add sitemap.xml">
+      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/7.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/ProjectsFiles/WonderShopGameplay.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/WonderShopCover.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/parallaxScene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/parallaxScene.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/profileCard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/profileCard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/skilltree.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/skilltree.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/projects/projectsList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/projects/projectsList.tsx" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,6 +81,8 @@
       <recent name="C:\Users\pierr\WebstormProjects\Portfolio\app" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pierr\WebstormProjects\Portfolio\public" />
+      <recent name="C:\Users\pierr\WebstormProjects\Portfolio\app" />
       <recent name="C:\Users\pierr\WebstormProjects\Portfolio\app\about" />
     </key>
   </component>
@@ -127,7 +139,9 @@
       <workItem from="1758789702924" duration="1192000" />
       <workItem from="1758805432644" duration="11112000" />
       <workItem from="1758877385612" duration="3749000" />
-      <workItem from="1758894618227" duration="871000" />
+      <workItem from="1758894618227" duration="1208000" />
+      <workItem from="1759059558509" duration="2507000" />
+      <workItem from="1760357449258" duration="2372000" />
     </task>
     <task id="LOCAL-00003" summary="Add Mobile Adaptation">
       <option name="closed" value="true" />
@@ -193,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1758895153789</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Add sitemap.xml">
+      <option name="closed" value="true" />
+      <created>1758895699639</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1758895699639</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -209,6 +231,7 @@
     <MESSAGE value="Add Animation" />
     <MESSAGE value="Correct Vercel Deployment" />
     <MESSAGE value="Last projects added and small changes on Masonry done for More To come" />
-    <option name="LAST_COMMIT_MESSAGE" value="Last projects added and small changes on Masonry done for More To come" />
+    <MESSAGE value="Add sitemap.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add sitemap.xml" />
   </component>
 </project>

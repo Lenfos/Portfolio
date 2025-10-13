@@ -29,7 +29,7 @@ export default function ProfileCard(){
                     </div>
                 </div>
             </div> :
-            <div>
+            <div className={"scale-75 xl:scale-100"}>
                 <div className="profileCardDivOuter">
                     <div className="profileCardDivInter space-x-10 items-center">
                         <Image alt={"logo decoration"} src={"/logo.svg"} className={"absolute top-10 right-0"} width={"50"} height={"50"}/>

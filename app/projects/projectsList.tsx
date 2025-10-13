@@ -47,10 +47,16 @@ export default function ProjectsList() {
             height: isMobile() ? 300 : 900,
         },
         {
+          id: "7",
+          img: "/WonderShopCover.jpg",
+          url: "https://example.com/one",
+          height: isMobile() ? 400 : 400,
+        },
+        {
             id: "0",
             img: "/moreToCome.jpg",
             url: "/projects",
-            height: 400,
+            height: 500,
         },
 
 
