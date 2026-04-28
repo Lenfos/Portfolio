@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Correct deployment error for vercel">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/special/page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/about/parallaxScene.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/about/parallaxScene.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,16 +16,57 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="3D0MwTiOwMxf8QUdozE0wv27QpS" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "dev",
+    "ignore.virus.scanning.warn.message": "true",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/Users/pierr/WebstormProjects/Portfolio",
     "node.js.selected.package.tslint": "(autodetect)",
-    "ts.external.directory.path": "C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib"
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "C:\\Users\\pierr\\WebstormProjects\\Portfolio\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-WS-261.23567.141" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="TaskManager">
     <task id="LOCAL-00001" summary="Merge branch 'main' into dev&#10;&#10;# Conflicts:&#10;#&#9;TS/Header.ts&#10;#&#9;TS/Projects.ts&#10;#&#9;contact.html&#10;#&#9;formation.html&#10;#&#9;index.html&#10;#&#9;js/Header.js&#10;#&#9;js/Header.js.map&#10;#&#9;js/Projects.js&#10;#&#9;js/Projects.js.map&#10;#&#9;projects.html&#10;#&#9;public/MobilePath.html&#10;#&#9;public/Path.html&#10;#&#9;public/itchIcon.svg&#10;#&#9;public/json/mad-space.json&#10;#&#9;public/json/ziggy.json&#10;#&#9;public/mad-space.jpg&#10;#&#9;public/mad-spaceClear.jpg&#10;#&#9;public/ziggy.jpg&#10;#&#9;public/ziggyClear.jpg&#10;#&#9;public/ziggy_video.mp4&#10;#&#9;style/contact.css&#10;#&#9;style/formation.css&#10;#&#9;style/global.css&#10;#&#9;style/index.css&#10;#&#9;style/projects.css">
       <option name="closed" value="true" />
@@ -44,8 +84,28 @@
       <option name="project" value="LOCAL" />
       <updated>1758547864121</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Correct deployment error for vercel">
+      <option name="closed" value="true" />
+      <created>1758548529578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758548529578</updated>
+    </task>
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ac08cb95-4269-4ccd-80e0-735d27a54b6b" name="Changes" comment="Correct deployment error for vercel" />
+      <created>1777414772062</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1777414772062</updated>
+      <workItem from="1777414774161" duration="68000" />
+      <workItem from="1777415436090" duration="764000" />
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Correct deployment error for vercel" />
