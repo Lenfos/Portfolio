@@ -29,13 +29,13 @@ export default function ProfileCard(){
                     </div>
                 </div>
             </div> :
-            <div className={"scale-75 xl:scale-100"}>
+            <div className="flex justify-center items-center w-full px-5 md:px-20 xl:px-40">
                 <div className="profileCardDivOuter">
                     <div className="profileCardDivInter space-x-10 items-center">
-                        <Image alt={"logo decoration"} src={"/logo.svg"} className={"absolute top-10 right-0"} width={"50"} height={"50"}/>
+                        <Image alt={"logo decoration"} src={"/logo.svg"} className={"absolute top-10 right-0"} width={50} height={50}/>
                         <div className="flex flex-col space-y-4">
                             <FadeIn>
-                                <Image width={315} height={315} alt={"Profile Picture"} src={"/photo.jpg"} className={"rounded-full self-center"}></Image>
+                                <Image width={315} height={315} alt={"Profile Picture"} src={"/photo.jpg"} className={"rounded-full self-center"}/>
                             </FadeIn>
                             <div>
                                 <FadeIn delay={0.3}>

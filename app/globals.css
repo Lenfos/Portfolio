@@ -192,6 +192,7 @@ html::-webkit-scrollbar {
 body{
   padding: 0;
   margin: 0;
+  scroll-behavior: smooth;
 }
 
 .parallaxWrapper .mobileWrapper {
@@ -278,23 +279,48 @@ body{
 }
 
 .about-container {
-  @apply lg:mt-20 md:p-10 px-3 py-20 m-auto
-  xl:w-[1400px] min-h-[600px] h-screen md:h-full
+  @apply lg:mt-20 md:p-10 px-3 py-5 md:py-20 m-auto
+  xl:w-[1400px]
   md:grid-cols-10 grid-rows-2 grid-cols-5
   md:bg-size-[90%] bg-contain
   md:bg-[url('/minimalistPlane.webp')] bg-[url('/Mobile/MobileFormations.svg')]
   bg-center;
   background-repeat: no-repeat;
   display: grid;
+  height: 100%;
+}
+
+@media (min-width: 768px) {
+  .about-container {
+    height: 560px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about-container {
+    height: 620px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .about-container {
+    height: 700px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .about-container {
+    height: 780px;
+  }
 }
 
 .about-text {
   @apply text-xs xl:text-lg
-  max-w-[160px] md:max-w-full h-fit;
+  max-w-[160px] md:max-w-full h-fit
+  mx-2 my-3 md:m-auto;
   text-align: justify;
   justify-self: center;
   font-family: "Raleway", sans-serif;
-  margin: auto;
   color: var(--text-foreground);
 }
 
@@ -315,13 +341,15 @@ body{
 
 }
 
-.profileCardDivOuter{
-  @apply w-[280px] h-[360px] md:max-w-[860px] md:max-h-[430px] md:w-full md:h-full md:aspect-video
+.profileCardDivOuter {
+  @apply w-[280px] h-[360px]
+  md:w-[700px] md:h-[380px]
+  lg:w-[780px] lg:h-[400px]
+  xl:w-[860px] xl:h-[430px]
   mx-auto p-1
   flex justify-around items-center;
   background: linear-gradient(-210deg, rgba(255, 255, 255, 0.42) 0%, rgba(255, 255, 255, 0.14) 100%);
   border-radius: 54px;
-
   backdrop-filter: blur(10px);
   box-shadow: 0 20px 40px 0 rgba(0,0,0,10%);
 }

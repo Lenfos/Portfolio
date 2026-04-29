@@ -2,7 +2,7 @@
 
 import {useEffect, useState} from "react";
 import NavItems from "@/components/NavItems";
-import {isMobile} from "@/lib/utils";
+import {isMobile, isTablet} from "@/lib/utils";
 import {AnimatePresence, motion, Transition} from "framer-motion";
 import Link from "next/link";
 
@@ -27,7 +27,7 @@ export default function NavBar(){
     };
 
     return (
-        isMobile() ?
+        isTablet() ?
             <>
                 <button
                     className="z-[100] absolute top-5 right-5"

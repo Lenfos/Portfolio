@@ -6,9 +6,16 @@ import FadeIn from "@/components/FadeIn";
 export default function AboutMe({className}: {className?: string}): JSX.Element {
     return (
         <div className={`flex flex-col sm:flex-row gap-y-8 justify-center items-center ${className}`}>
-            <div className="custom-radius bg-[url('/lofiMoi.webp')] md:w-2/3 md:max-w-2/3 max-w-[300px] w-2/3 lg:w-1/3  aspect-square bg-cover bg-[35%]"/>
+            <div className="custom-radius bg-[url('/lofiMoi.webp')]
+        w-[250px] h-[250px]
+        sm:w-[280px] sm:h-[280px]
+        md:w-[320px] md:h-[320px]
+        lg:w-[380px] lg:h-[380px]
+        xl:w-[420px] xl:h-[420px]
+        shrink-0
+        bg-cover bg-[35%]"/>
             <div className={"px-5 max-w-[310px] md:max-w-full"}>
-                <FadeIn >
+                <FadeIn>
                     <h2 className={"font-gila lg:text-6xl text-3xl text-[color:var(--text-foreground)]"}>Hello,<br/>I'm Pierre !</h2>
                 </FadeIn>
                 <FadeIn>
