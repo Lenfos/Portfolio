@@ -16,7 +16,7 @@ export const projects = [
       en: "Game created in 48 hours during UQAC’s Wonder Jam 2024, based on the theme “Dimension”, with a team of four developers. As the Game/Level Designer, I designed the exploration and mechanics around light, madness, and resource management. Developed entirely in Unreal Engine using Blueprints, with Fab.com assets to meet the project’s tight time constraints." },
     images: ["mad-space.jpg"], video: null, links: { play: "", code: "", video: "" } },
 
-  { id: "p2", featured: true, title: "Learn2Switch", g: ["#7A3E1F", "#E0703A"], tags: ["Game Design", "GDD"],
+  { id: "p2", featured: false, title: "Learn2Switch", g: ["#7A3E1F", "#E0703A"], tags: ["Game Design", "GDD"],
     short: { fr: "Projet de Game Design en Freelance", en: "Freelance Game Design Project" },
     role: { fr: "Développeur & game designer", en: "Developer & game designer" },
     long: { fr: "GDD réalisé en freelance en 2023 pour un RPG éducatif en 3D destiné aux 14–18 ans, développé autour de six compétences professionnelles.\n" +
@@ -92,6 +92,16 @@ export const projects = [
           "As Game Designer and Developer, I designed and developed a management game centered around identifying counterfeit items.\n" +
           "I adapted the project scope and handled the entire development process to deliver a complete game within a limited timeframe.\n" },
     images: ["WonderShopCover.jpg"], video: null, links: { play: "", code: "", video: "" } },
+  { id: "p9", featured: true, title: "Beat the News", g: ["#7A3E1F", "#E0703A"], tags: ["Game Jam", "Godot"],
+    short: { fr: "Wonder Jam 2026", en: "Wonder Jam 2026" },
+    role: { fr: "Développeur | UI Designer", en: "Game Programmer | UI Designer" },
+    long: { fr: "Jeu développé en équipe lors de Wonder Jam 2026, sur le thème « Breaking News ».\n" +
+          "En tant que UI Designer et Developer, j’ai conçu et développé la partie interface ainsi que la partie performance du jeu: un jeu où le joueur compose un morceau pour une émission d’actualité, puis le joue en direct sur le plateau TV\n" +
+          "J’ai travaillé sur les pistes de notes et le feedback visuel afin de rendre chaque frappe satisfaisante, en collaboration avec la personne en charge de la musique.\n",
+      en: "A game developed as part of a team at Wonder Jam 2026, based on the theme ‘Breaking News’.\n" +
+          "As a UI Designer and Developer, I designed and developed the game’s interface and performance aspects: a game in which the player composes a piece of music for a news programme, then performs it live on the TV set\n" +
+          "I worked on the note paths and visual feedback to ensure each keystroke felt satisfying, in collaboration with the person in charge of the music.\n"},
+    images: ["BeatTheNews.svg"], video: null, links: { play: "", code: "", video: "" } }
 ];
 
 export const journey = [
